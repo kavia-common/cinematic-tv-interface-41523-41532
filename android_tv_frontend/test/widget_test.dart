@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:android_tv_frontend/main.dart';
+import 'package:android_tv_frontend/app/app.dart';
 
 void main() {
   testWidgets('Home screen renders search, title, and recommendations label', (WidgetTester tester) async {
