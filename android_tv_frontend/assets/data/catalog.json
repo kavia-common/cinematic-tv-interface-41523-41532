@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": "bvs",
+      "title": "Batman v Superman: Dawn of Justice",
+      "year": 2016,
+      "runtime": "2h 31m",
+      "rating": "PG-13",
+      "tags": ["4K", "HDR", "PG-13", "2h 31m", "2016"],
+      "poster": "https://picsum.photos/seed/bvs/300/450",
+      "backdrop": "https://picsum.photos/seed/bvs-hero/1600/900",
+      "overview": "Fearing the actions of a god-like superhero left unchecked, Gotham’s vigilante takes on Metropolis’s savior while a new threat emerges.",
+      "genres": ["Action", "Sci-Fi", "Adventure"],
+      "similar": ["justiceleague", "manofsteel", "thebatman"]
+    },
+    {
+      "id": "arrival",
+      "title": "Arrival",
+      "year": 2016,
+      "runtime": "1h 56m",
+      "rating": "PG-13",
+      "tags": ["4K", "HDR", "PG-13", "1h 56m", "2016"],
+      "poster": "https://picsum.photos/seed/arrival/300/450",
+      "backdrop": "https://picsum.photos/seed/arrival-hero/1600/900",
+      "overview": "A linguist works with the military to communicate with alien lifeforms after mysterious spacecraft appear around the world.",
+      "genres": ["Sci-Fi", "Drama", "Mystery"],
+      "similar": ["gravity", "interstellar", "contact"]
+    },
+    {
+      "id": "martian",
+      "title": "The Martian",
+      "year": 2015,
+      "runtime": "2h 24m",
+      "rating": "PG-13",
+      "tags": ["4K", "HDR", "PG-13", "2h 24m", "2015"],
+      "poster": "https://picsum.photos/seed/martian/300/450",
+      "backdrop": "https://picsum.photos/seed/martian-hero/1600/900",
+      "overview": "An astronaut becomes stranded on Mars and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
+      "genres": ["Adventure", "Sci-Fi", "Drama"],
+      "similar": ["gravity", "apollo13", "moon"]
+    },
+    {
+      "id": "gravity",
+      "title": "Gravity",
+      "year": 2013,
+      "runtime": "1h 31m",
+      "rating": "PG-13",
+      "tags": ["4K", "HDR", "PG-13", "1h 31m", "2013"],
+      "poster": "https://picsum.photos/seed/gravity/300/450",
+      "backdrop": "https://picsum.photos/seed/gravity-hero/1600/900",
+      "overview": "Two astronauts work together to survive after an accident leaves them stranded in space.",
+      "genres": ["Sci-Fi", "Thriller"],
+      "similar": ["martian", "interstellar", "apollo13"]
+    },
+    {
+      "id": "inception",
+      "title": "Inception",
+      "year": 2010,
+      "runtime": "2h 28m",
+      "rating": "PG-13",
+      "tags": ["4K", "HDR", "PG-13", "2h 28m", "2010"],
+      "poster": "https://picsum.photos/seed/inception/300/450",
+      "backdrop": "https://picsum.photos/seed/inception-hero/1600/900",
+      "overview": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea.",
+      "genres": ["Action", "Sci-Fi", "Thriller"],
+      "similar": ["tenet", "memento", "shutterisland"]
+    },
+    {
+      "id": "tenet",
+      "title": "Tenet",
+      "year": 2020,
+      "runtime": "2h 30m",
+      "rating": "PG-13",
+      "tags": ["4K", "HDR", "PG-13", "2h 30m", "2020"],
+      "poster": "https://picsum.photos/seed/tenet/300/450",
+      "backdrop": "https://picsum.photos/seed/tenet-hero/1600/900",
+      "overview": "Armed with only one word, Tenet, a CIA operative must save the world from an attack that reverses time.",
+      "genres": ["Action", "Sci-Fi"],
+      "similar": ["inception", "missionimpossible", "memento"]
+    },
+    {
+      "id": "dune",
+      "title": "Dune",
+      "year": 2021,
+      "runtime": "2h 35m",
+      "rating": "PG-13",
+      "tags": ["4K", "HDR", "PG-13", "2h 35m", "2021"],
+      "poster": "https://picsum.photos/seed/dune/300/450",
+      "backdrop": "https://picsum.photos/seed/dune-hero/1600/900",
+      "overview": "Paul Atreides leads nomadic tribes in a battle to control the desert planet Arrakis.",
+      "genres": ["Sci-Fi", "Adventure", "Drama"],
+      "similar": ["blade_runner_2049", "foundation", "starwars"]
+    },
+    {
+      "id": "sicario",
+      "title": "Sicario",
+      "year": 2015,
+      "runtime": "2h 1m",
+      "rating": "R",
+      "tags": ["4K", "HDR", "R", "2h 1m", "2015"],
+      "poster": "https://picsum.photos/seed/sicario/300/450",
+      "backdrop": "https://picsum.photos/seed/sicario-hero/1600/900",
+      "overview": "An idealistic FBI agent is enlisted to aid in the escalating war against drugs at the border area between the U.S. and Mexico.",
+      "genres": ["Thriller", "Crime", "Drama"],
+      "similar": ["prisoners", "narcos", "traffic"]
+    }
+  ]
+}
