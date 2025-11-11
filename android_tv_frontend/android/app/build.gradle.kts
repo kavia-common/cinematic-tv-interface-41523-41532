@@ -8,7 +8,8 @@ plugins {
 android {
     namespace = "com.example.android_tv_frontend"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    // Pin NDK to match plugin requirements (shared_preferences_android, sqflite_android)
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
