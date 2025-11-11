@@ -3,16 +3,20 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:android_tv_frontend/main.dart';
 
 void main() {
-  testWidgets('App generation message displayed', (WidgetTester tester) async {
-    await tester.pumpWidget(const MyApp());
-
-    expect(find.text('android_tv_frontend App is being generated...'), findsOneWidget);
-    expect(find.byType(CircularProgressIndicator), findsOneWidget);
+  testWidgets('Home screen renders header and sections', (WidgetTester tester) async {
+    await tester.pumpWidget(const TvApp());
+    // Verify key header elements are present
+    expect(find.text('RECOMMENDATIONS'), findsOneWidget);
+    // One of the featured items should be visible
+    expect(find.textContaining('Batman v Superman'), findsWidgets);
   });
 
-  testWidgets('App bar has correct title', (WidgetTester tester) async {
-    await tester.pumpWidget(const MyApp());
-
-    expect(find.text('android_tv_frontend'), findsOneWidget);
+  testWidgets('Profile overlay toggles', (WidgetTester tester) async {
+    await tester.pumpWidget(const TvApp());
+    // Tap avatar circle
+    final avatar = find.byType(CircleAvatar).first;
+    await tester.tap(avatar);
+    await tester.pumpAndSettle();
+    expect(find.text('Sofie Turner'), findsOneWidget);
   });
 }

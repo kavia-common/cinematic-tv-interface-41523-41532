@@ -1,16 +1,20 @@
 # android_tv_frontend
 
-A new Flutter project.
+Android TV-like Home Screen implemented in Flutter with D-pad navigation.
 
-## Getting Started
+Highlights:
+- Top app bar with Search, tabs (Home, TV Shows, Movies, Watchlist, Settings), utilities and avatar
+- Featured carousel row with focusable 16:9 cards and right metadata panel
+- Recommendations rail with horizontal scroller
+- TV D-pad navigation using Shortcuts/Actions and FocusTraversalGroup
+- Focus animations (scale, outline glow) and Material 3 styling
+- Profile overlay panel with slide-in animation
 
-This project is a starting point for a Flutter application.
+How to navigate:
+- Use arrow keys or a TV remote D-pad to move focus
+- Press Enter/Select/Space to activate the focused card or control
+- Press back (Android) or click outside to close the profile overlay
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Design tokens:
+- Colors, typography, and spacing follow the style guide in /assets/style_guide.md
+- Layout and component specifics from /assets/home_screen_design_notes.md
