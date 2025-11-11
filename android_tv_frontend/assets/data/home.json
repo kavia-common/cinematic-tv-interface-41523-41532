@@ -1,0 +1,43 @@
+{
+  "title": "Batman v Superman: Dawn of Justice",
+  "tags": ["4K", "HDR", "PG-13", "2h 31m", "2016"],
+  "synopsis": "Fearing the actions of a god-like superhero left unchecked, Gotham City’s vigilante takes on Metropolis’s revered savior, while a new threat emerges, putting mankind in greater danger than ever before.",
+  "heroPoster": "https://picsum.photos/seed/bvs-hero/1600/900",
+  "recommendations": [
+    {
+      "id": "arrival",
+      "title": "Arrival",
+      "poster": "https://picsum.photos/seed/arrival/300/450"
+    },
+    {
+      "id": "martian",
+      "title": "The Martian",
+      "poster": "https://picsum.photos/seed/martian/300/450"
+    },
+    {
+      "id": "gravity",
+      "title": "Gravity",
+      "poster": "https://picsum.photos/seed/gravity/300/450"
+    },
+    {
+      "id": "inception",
+      "title": "Inception",
+      "poster": "https://picsum.photos/seed/inception/300/450"
+    },
+    {
+      "id": "tenet",
+      "title": "Tenet",
+      "poster": "https://picsum.photos/seed/tenet/300/450"
+    },
+    {
+      "id": "dune",
+      "title": "Dune",
+      "poster": "https://picsum.photos/seed/dune/300/450"
+    },
+    {
+      "id": "sicario",
+      "title": "Sicario",
+      "poster": "https://picsum.photos/seed/sicario/300/450"
+    }
+  ]
+}
